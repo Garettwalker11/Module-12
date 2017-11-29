@@ -1,0 +1,88 @@
+/***
+* Project Name
+**/
+/***
+* Global Variables : this section will be moved separte file.
+**/
+/***
+* Base Styles
+**/
+/* line 10, ../sass/style.scss */
+header {
+  position: inherit;
+  background: #787878;
+  height: 60px;
+  padding: 30px;
+  padding-top: 30px;
+  margin-top: -20px;
+  margin-left: -10px;
+  width: 100%;
+}
+
+/* line 21, ../sass/style.scss */
+header img {
+  box-shadow: 3px 2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 3px 2px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 3px 2px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 3px 2px rgba(0, 0, 0, 0.6);
+  border-radius: 100px;
+}
+
+/* line 31, ../sass/style.scss */
+body {
+  background: #DDDDDD;
+  color: black;
+}
+
+/* line 36, ../sass/style.scss */
+.navigation {
+  font-family: "Lobster";
+  font-size: 25px;
+  float: right;
+  margin-right: 90px;
+  margin-top: -5px;
+}
+
+/* line 45, ../sass/style.scss */
+.navigation ul li {
+  display: inline;
+  padding: 0px 10px 0 0;
+}
+
+/* line 50, ../sass/style.scss */
+.navigation ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 57, ../sass/style.scss */
+.navigation ul li a:hover {
+  color: darkred;
+  transition-duration: 1s;
+}
+
+/* line 63, ../sass/style.scss */
+h1 {
+  font-family: "Lobster";
+  font-size: 50px;
+  float: right;
+  margin-right: 250px;
+  margin-top: 90px;
+  border-bottom: 4px solid darkred;
+}
+
+/* line 73, ../sass/style.scss */
+p {
+  font-family: "Lobster";
+  font-size: 18px;
+  width: 500px;
+  line-height: 35px;
+  float: right;
+  padding-top: 200px;
+  margin-right: -450px;
+}
+
+/* line 87, ../sass/style.scss */
+#warriors img {
+  padding: 60px;
+}
